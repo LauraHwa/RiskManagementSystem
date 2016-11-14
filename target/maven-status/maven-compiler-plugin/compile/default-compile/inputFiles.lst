@@ -1,0 +1,16 @@
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/action/RegisterAction.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/model/User.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/service/UserManageService.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/dao/impl/BaseDaoImpl.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/model/Issue.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/service/impl/IssueManageServiceImpl.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/service/IssueManageService.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/action/IssueAction.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/dao/UserDao.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/action/BaseAction.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/dao/BaseDao.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/dao/impl/UserDaoImpl.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/vo/SummaryVO.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/dao/IssueDao.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/dao/impl/IssueDaoImpl.java
+/Users/nixiaofan/git/RiskManagementSystem/src/main/java/riskcontrol/service/impl/UserManageServiceImpl.java
