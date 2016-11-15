@@ -59,16 +59,8 @@
     <div class="container-fluid">
       <div class="row">
 
-        <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
-            <li class="active"><s:a href="my.action"><span class="glyphicon glyphicon-dashboard"></span> 我的工作台</s:a></li>
-            <li><s:a href="summary.action"><span class="glyphicon glyphicon-stats"></span> 风险概述</s:a></li>
-            <li><s:a href="all.action"><span class="glyphicon glyphicon-th-list"></span> 风险列表</s:a></li>
-            <li><a href="<%=request.getContextPath()+"/issue/addIssue.jsp"%>" ><span class="glyphicon glyphicon-pencil"></span> 新建风险</a></li>
-          </ul>
-        </div>
         
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="col-sm-12 col-md-12 main">
           <h2 class="sub-header">我的工作台</h2>
           <div class="row">
             <section class="section-follow">
