@@ -38,7 +38,7 @@
           <a class="navbar-brand">项目风险管理系统</a>
         </div>
         <div>
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav nav-sidebar">
             <li class="active"><s:a href="my.action"><span class="glyphicon glyphicon-dashboard"></span> 我的工作台</s:a></li>
             <li><s:a href="summary.action"><span class="glyphicon glyphicon-stats"></span> 风险概述</s:a></li>
             <li><s:a href="all.action"><span class="glyphicon glyphicon-th-list"></span> 风险列表</s:a></li>
