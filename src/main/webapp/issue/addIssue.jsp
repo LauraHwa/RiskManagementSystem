@@ -37,6 +37,14 @@
             </button>
             <a class="navbar-brand">项目风险管理系统</a>
         </div>
+        <div>
+          <ul class="nav navbar-nav">
+            <li class="active"><s:a href="my.action"><span class="glyphicon glyphicon-dashboard"></span> 我的工作台</s:a></li>
+            <li><s:a href="summary.action"><span class="glyphicon glyphicon-stats"></span> 风险概述</s:a></li>
+            <li><s:a href="all.action"><span class="glyphicon glyphicon-th-list"></span> 风险列表</s:a></li>
+            <li><a href="<%=request.getContextPath()+"/issue/addIssue.jsp"%>" ><span class="glyphicon glyphicon-pencil"></span> 新建风险</a></li>
+          </ul>
+        </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#"><%=session.getAttribute("user")%></a></li>
@@ -50,18 +58,11 @@
 <div class="container-fluid">
     <div class="row">
 
-        <div class="col-sm-3 col-md-2 sidebar">
-            <ul class="nav nav-sidebar">
-            <li><s:a href="my.action"><span class="glyphicon glyphicon-dashboard"></span> 我的工作台</s:a></li>
-            <li><s:a href="summary.action"><span class="glyphicon glyphicon-stats"></span> 风险概述</s:a></li>
-            <li><s:a href="all.action"><span class="glyphicon glyphicon-th-list"></span> 风险列表</s:a></li>
-            <li class="active"><a href="<%=request.getContextPath()+"/issue/addIssue.jsp"%>" ><span class="glyphicon glyphicon-pencil"></span> 新建风险</a></li>
-            </ul>
-        </div>
+        
 
         <div class="container main">
             <div class="row clearfix">
-                <div class="col-md-10 column col-md-offset-2">
+                <div class="col-md-12 column">
                     <s:form class="form-horizontal" role="form" action="create" method="post">
                         <h2 class="sub-header">新建风险</h2>
                         <div class="form-group">
