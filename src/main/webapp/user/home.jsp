@@ -63,10 +63,10 @@
 
           <div class="row">
             <section class="section-posibility">
-              <div class="col-sm-12 col-md-12 ">
+              <div class="col-sm-6 col-md-6 ">
                 <div class="section-title">按可能性</div>
               </div>
-              <div class="col-sm-4 col-md-4">
+              <div class="col-sm-12 col-md-12">
                 <div class="panel panel-default">
                   <div class="panel-body panel-pos-high">
                     <div class="panel-data">
@@ -81,7 +81,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-4 col-md-4">
+              <div class="col-sm-12 col-md-12">
                 <div class="panel panel-default">
                   <div class="panel-body panel-pos-middle">
                     <div class="panel-data">
@@ -96,7 +96,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-4 col-md-4">
+              <div class="col-sm-12 col-md-12">
                 <div class="panel panel-default">
                   <div class="panel-body panel-pos-low">
                     <div class="panel-data">
