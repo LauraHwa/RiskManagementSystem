@@ -14,7 +14,9 @@ body {
  */
 
 .sub-header {
+
   padding-bottom: 20px;
+  color: #aaa
   /*border-bottom: 1px solid #eee;*/
 }
 
@@ -24,11 +26,11 @@ body {
  */
 .navbar-fixed-top {
   /*border: 0;*/
-  border-color: #333;
+  border-color: #c8e6e2;
 }
 
 .navbar {
-  background-color: #333;
+  background-color: #c8e6e2;
 }
 
 .navbar-inverse .navbar-brand {
@@ -61,9 +63,12 @@ body {
 
 /* Sidebar navigation */
 .sidebar {
-  background-color: #333;
+  background-color: #c8e6e2;
 }
-
+.navbar-brand {
+  padding-left: 32px;
+  
+}
 .nav-sidebar {
   margin-right: -21px; /* 20px padding + 1px border */
   margin-bottom: 20px;
@@ -85,14 +90,14 @@ body {
 .nav-sidebar > li > a:hover,
 .nav-sidebar > li > a:focus {
   color: #aaa;
-  background-color: #444;
+  background-color: #c8e6e2;
 }
 
 .nav-sidebar > .active > a,
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
   color: #fff;
-  background-color: #222;
+  background-color: #c8e6e2;
 }
 
 
@@ -137,12 +142,12 @@ body {
 
 
 .section-title {
-  background-color: #eee;
+  background-color: #c8e6e2;
   padding-top: 6px;
   padding-bottom: 6px; 
   padding-left: 16px;
   margin-bottom: 14px;
-  color: #222;
+  color: #fff;
   font-size: 16px;
 }
 
@@ -160,23 +165,23 @@ body {
 }
 
 .panel-pos-high {
-  background-color: #ffc107;
+  background-color: #afdde0;
 }
 .panel-pos-middle {
-  background-color: #ffca28;
+  background-color: #afdde0;
 }
 .panel-pos-low {
-  background-color: #ffd54f;
+  background-color: #afdde0;
 }
 
 .panel-aff-high {
-  background-color: #7cb342;
+  background-color: #afdde0;
 }
 .panel-aff-middle {
-  background-color: #8bc34a;
+  background-color: #afdde0;
 }
 .panel-aff-low {
-  background-color: #9ccc65;
+  background-color: #afdde0;
 }
 
 .panel-data {
