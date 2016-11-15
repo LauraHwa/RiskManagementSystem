@@ -36,11 +36,9 @@ public class UserManageServiceImpl implements UserManageService {
 	public String registerStudent(User user) {
 		String message = null;
 
-		// else{
 		System.out.println(" Ready to save user");
 		if (userDao == null) {
 			System.out.println(" studentDao is null");
-			userDao.save(user);
 		} else {
 			userDao.save(user);
 		}
