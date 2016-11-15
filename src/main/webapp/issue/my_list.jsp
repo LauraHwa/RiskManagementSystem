@@ -37,6 +37,13 @@
           </button>
           <a class="navbar-brand">项目风险管理系统</a>
         </div>
+        <div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">iOS</a></li>
+            <li><a href="#">SVN</a></li>
+          </ul>
+        </div>
+
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#"><%=session.getAttribute("user")%></a></li>
