@@ -27,7 +27,6 @@ public class RegisterAction extends BaseAction
 					throws ServletException,IOException
 	{
 		if (userService==null )System.out.println("Student service null");
-	//	String test=StudentService.test();
 		
 		String message="";
 		user = new User();
@@ -43,14 +42,10 @@ public class RegisterAction extends BaseAction
 		System.out.println(user.getUserName()+" Student execute");		
 		
 		userService.registerStudent(user);
-	/*	if((message=StudentService.registerStudent(Student))!= null){
-			StudentService.sentErrorMessage(message, request);
-			return INPUT;
-		}
-		else{*/
+
 			session.put("user",request.getParameter("username"));
 			return SUCCESS;
-		//}
+
 		
     }
 
