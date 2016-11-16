@@ -35,14 +35,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand">项目风险管理系统</a>
+          <a class="navbar-brand">风险管理系统</a>
         </div>
         <div>
           <ul class="nav navbar-nav">
-            <li><s:a href="my.action"><span class="glyphicon glyphicon-dashboard"></span> 我的工作台</s:a></li>
-            <li><s:a href="summary.action"><span class="glyphicon glyphicon-stats"></span> 风险概述</s:a></li>
+            <li><s:a href="my.action"><span class="glyphicon glyphicon-dashboard"></span> 我的风险</s:a></li>
+            <li><s:a href="summary.action"><span class="glyphicon glyphicon-stats"></span> 风险总览</s:a></li>
             <li><s:a href="all.action"><span class="glyphicon glyphicon-th-list"></span> 风险列表</s:a></li>
-            <li><a href="<%=request.getContextPath()+"/issue/addIssue.jsp"%>" ><span class="glyphicon glyphicon-pencil"></span> 新建风险</a></li>
+            <li><a href="<%=request.getContextPath()+"/issue/addIssue.jsp"%>" ><span class="glyphicon glyphicon-pencil"></span> 添加风险</a></li>
           </ul>
         </div>
 
