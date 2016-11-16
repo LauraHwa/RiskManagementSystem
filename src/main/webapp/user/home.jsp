@@ -63,7 +63,7 @@
 
           <div class="row">
             <div class = "col-md-6">
-              <section class="section-posibility">
+              
               <div class="col-sm-12 col-md-12 ">
                 <div class="section-title">按可能性</div>
               </div>
@@ -111,10 +111,10 @@
                   </div>
                 </div>
               </div>
-            </section>
+            
             </div>
             <div class = "col-md-6 col-md-offset-6">
-              <section class="section-affection">
+              
               <div class="col-sm-12 col-md-12">
                 <div class="section-title">按影响程度</div>
               </div>
@@ -164,7 +164,7 @@
               </div>
               
 
-            </section>
+            
 
             </div>
             
