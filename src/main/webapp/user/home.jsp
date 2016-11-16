@@ -62,8 +62,9 @@
           <h2 class="sub-header">风险概述</h2>
 
           <div class="row">
-            <section class="section-posibility">
-              <div class="col-sm-6 col-md-6 ">
+            <div class = "col-md-6">
+              <section class="section-posibility">
+              <div class="col-sm-12 col-md-12 ">
                 <div class="section-title">按可能性</div>
               </div>
               <div class="col-sm-12 col-md-12">
@@ -74,7 +75,7 @@
                     </div>
                     <div>
                       <div class="panel-description">
-                        	高 可能性
+                          高 可能性
                       </div>
                     </div>
                   </div>
@@ -111,12 +112,13 @@
                 </div>
               </div>
             </section>
-            
-            <section class="section-affection">
+            </div>
+            <div class = "col-md-6">
+              <section class="section-affection">
               <div class="col-sm-12 col-md-12">
                 <div class="section-title">按影响程度</div>
               </div>
-              <div class="col-sm-4 col-md-4">
+              <div class="col-sm-12 col-md-12">
                 <div class="panel panel-default">
                   <div class="panel-body panel-aff-high">
                     <div class="panel-data">
@@ -131,7 +133,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-4 col-md-4">
+              <div class="col-sm-12 col-md-12">
                 <div class="panel panel-default">
                   <div class="panel-body panel-aff-middle">
                     <div class="panel-data">
@@ -146,7 +148,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-4 col-md-4">
+              <div class="col-sm-12 col-md-12">
                 <div class="panel panel-default">
                   <div class="panel-body panel-aff-low">
                     <div class="panel-data">
@@ -163,6 +165,11 @@
               
 
             </section>
+
+            </div>
+            
+            
+            
 
           </div>
 
