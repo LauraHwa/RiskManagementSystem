@@ -61,7 +61,7 @@
 
         
         <div class="col-sm-12 col-md-12 main">
-          <h2 class="sub-header">我的工作台</h2>
+          <h2 class="sub-header">我的风险</h2>
           <div class="row">
             <section class="section-follow">
               <div class="col-sm-12 col-md-12">

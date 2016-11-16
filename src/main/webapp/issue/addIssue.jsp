@@ -64,7 +64,7 @@
             <div class="row clearfix">
                 <div class="col-md-12 column">
                     <s:form class="form-horizontal" role="form" action="create" method="post">
-                        <h2 class="sub-header">新建风险</h2>
+                        <h2 class="sub-header">添加风险</h2>
                         <div class="form-group">
                             <label for="issue_content" class="col-sm-2 control-label">项目</label>
                             <div class="col-sm-8">

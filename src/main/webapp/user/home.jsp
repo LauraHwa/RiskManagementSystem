@@ -59,7 +59,7 @@
       <div class="row">
 
         <div class="col-sm-12 col-md-12 main">
-          <h2 class="sub-header">风险概述</h2>
+          <h2 class="sub-header">风险总览</h2>
 
           <div class="row">
             
