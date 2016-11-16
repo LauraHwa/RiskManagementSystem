@@ -113,7 +113,7 @@
               </div>
             </section>
             </div>
-            <div class = "col-md-6">
+            <div class = "col-md-6 col-md-offset-6">
               <section class="section-affection">
               <div class="col-sm-12 col-md-12">
                 <div class="section-title">按影响程度</div>
