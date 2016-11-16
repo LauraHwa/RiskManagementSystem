@@ -62,12 +62,16 @@
           <h2 class="sub-header">风险概述</h2>
 
           <div class="row">
-            <div class = "col-md-6">
+            
               
-              <div class="col-sm-12 col-md-12 ">
+              <div class="col-sm-6 col-md-6 ">
                 <div class="section-title">按可能性</div>
               </div>
-              <div class="col-sm-12 col-md-12">
+              <div class="col-sm-6 col-md-6">
+                <div class="section-title">按影响程度</div>
+              </div>
+
+              <div class="col-sm-6 col-md-6">
                 <div class="panel panel-default">
                   <div class="panel-body panel-pos-high">
                     <div class="panel-data">
@@ -81,44 +85,7 @@
                   </div>
                 </div>
               </div>
-
-              <div class="col-sm-12 col-md-12">
-                <div class="panel panel-default">
-                  <div class="panel-body panel-pos-middle">
-                    <div class="panel-data">
-                      <span><s:property value="#request.summary.p_m"/></span> 打开 / <s:property value="#request.summary.p_m"/>
-                    </div>
-                    <div>
-                      <div class="panel-description">
-                        中 可能性 
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-12 col-md-12">
-                <div class="panel panel-default">
-                  <div class="panel-body panel-pos-low">
-                    <div class="panel-data">
-                      <span><s:property value="#request.summary.p_l"/></span> 打开 / <s:property value="#request.summary.p_l"/>
-                    </div>
-                    <div>
-                      <div class="panel-description">
-                        低 可能性
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            
-            </div>
-            <div class = "col-md-6 col-md-offset-6">
-              
-              <div class="col-sm-12 col-md-12">
-                <div class="section-title">按影响程度</div>
-              </div>
-              <div class="col-sm-12 col-md-12">
+              <div class="col-sm-6 col-md-6">
                 <div class="panel panel-default">
                   <div class="panel-body panel-aff-high">
                     <div class="panel-data">
@@ -133,7 +100,22 @@
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-12">
+
+              <div class="col-sm-6 col-md-6">
+                <div class="panel panel-default">
+                  <div class="panel-body panel-pos-middle">
+                    <div class="panel-data">
+                      <span><s:property value="#request.summary.p_m"/></span> 打开 / <s:property value="#request.summary.p_m"/>
+                    </div>
+                    <div>
+                      <div class="panel-description">
+                        中 可能性 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6">
                 <div class="panel panel-default">
                   <div class="panel-body panel-aff-middle">
                     <div class="panel-data">
@@ -148,7 +130,21 @@
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-12">
+              <div class="col-sm-6 col-md-6">
+                <div class="panel panel-default">
+                  <div class="panel-body panel-pos-low">
+                    <div class="panel-data">
+                      <span><s:property value="#request.summary.p_l"/></span> 打开 / <s:property value="#request.summary.p_l"/>
+                    </div>
+                    <div>
+                      <div class="panel-description">
+                        低 可能性
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6">
                 <div class="panel panel-default">
                   <div class="panel-body panel-aff-low">
                     <div class="panel-data">
@@ -162,11 +158,14 @@
                   </div>
                 </div>
               </div>
+            
+            
+              
+            
+              
               
 
-            
-
-            </div>
+              
             
             
             
